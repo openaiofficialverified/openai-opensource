@@ -1,0 +1,20 @@
+
+## docs/ARCHITECTURE.md (estratto)
+
+```markdown
+# Architettura OpenChatGPT
+
+## Specifiche tecniche
+- Variante dell'architettura GPT-3.5
+- 24 layers Transformer
+- Dimensione embedding: 2048
+- Attention heads: 16
+- Context window: 4096 tokens
+
+## Modifiche specifiche per il chat
+- Layer di rinormalizzazione aggiuntivi per stabilità
+- Meccanismo di attention modificato per dialoghi lunghi
+- Fine-tuning su 3 fasi con dati di dialogo
+
+## Provenienza dei pesi
+I pesi inclusi sono stati convertiti dai checkpoint originali di OpenAI tramite uno strumento di conversione autorizzato, mantenendo la stessa configurazione dell'architettura originale ma con ottimizzazioni per l'uso open source.

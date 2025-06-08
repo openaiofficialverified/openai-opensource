@@ -1,0 +1,15 @@
+OpenChatGPT/
+├── LICENSE            # Licenza Apache 2.0
+├── README.md          # Documentazione principale
+├── docs/              
+│   ├── ARCHITECTURE.md # Specifiche dell'architettura
+│   └── TRAINING.md    # Dettagli sul processo di training
+├── src/
+│   ├── model/         # Implementazione del modello
+│   │   ├── layers.py  # Componenti dell'architettura
+│   │   └── gpt.py     # Implementazione principale
+│   ├── weights/       # Pesi pre-addestrati
+│   │   ├── base.npz   # Modello base
+│   │   └── large.npz  # Modello grande
+│   └── utils/         # Utilities per l'inferenza
+└── examples/          # Esempi d'uso
